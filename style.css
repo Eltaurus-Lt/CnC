@@ -23,20 +23,6 @@ section.paralaximage img
  margin: 0px;
 }
 
-/* main content */
-.major {
-    color: slategray;
- /*   text-align: center; */
-    font-size: 35px;
-}
-.major a {    
-    display:inline-block;    
-/*    padding-top:10px;*/
-    line-height:60px;
-    color: slategray;
-}
-
-
 
 /*soft icons*/
 a[href$='.nb'] {    
@@ -58,6 +44,22 @@ a[href$='.nb'] {
     padding-left:55px;
     background: transparent url(icons/aid.png)  center left no-repeat;    
 }
+
+
+
+/* main content */
+.major {
+    color: slategray;
+ /*   text-align: center; */
+    font-size: 35px;
+}
+.major a {    
+    display:inline-block;    
+/*    padding-top:10px;*/
+    line-height:60px;
+    color: slategray;
+}
+
 
 
 .block {
