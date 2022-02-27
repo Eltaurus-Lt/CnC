@@ -1,11 +1,24 @@
-a[href$='.nb'] {    
-    /* git-hub edt*/
-    display:inline-block;    
-    line-height:40px;
-    padding-left:40px;
-    background: transparent url(nb.png)  center left no-repeat;    
-    background-size: 30px;
+/*gallery*/
+section.paralaximage
+{
+ position: relative;
+ width: 744px;
+ height: 190px;
+ overflow: hidden;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ background: red;
 }
+section.paralaximage img
+{
+ position: absolute;
+ object-fit: cover;
+/* pointer-events: none;*/
+ margin: 0px;
+}
+
+/* main content */
 .major {
     color: slategray;
  /*   text-align: center; */
@@ -16,6 +29,18 @@ a[href$='.nb'] {
 /*    padding-top:10px;*/
     line-height:60px;
     color: slategray;
+}
+
+
+
+/*soft icons*/
+a[href$='.nb'] {    
+    /* git-hub edt*/
+    display:inline-block;    
+    line-height:40px;
+    padding-left:40px;
+    background: transparent url(nb.png)  center left no-repeat;    
+    background-size: 30px;
 }
 .major a[href$='.nb'] {    
     padding-left:55px;
@@ -29,6 +54,8 @@ a[href$='.nb'] {
     padding-left:55px;
     background: transparent url(aid.png)  center left no-repeat;    
 }
+
+
 .block {
         padding-top: 25px;
         padding-bottom: 80px;
