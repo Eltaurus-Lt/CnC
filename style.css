@@ -1,6 +1,6 @@
 /*css link test*/
 div.csstest{
- background : purple;
+ background: purple;
 }
 
 /*gallery*/
@@ -40,24 +40,23 @@ section.paralaximage img
 
 /*soft icons*/
 a[href$='.nb'] {    
-    /* git-hub edt*/
     display:inline-block;    
     line-height:40px;
     padding-left:40px;
-    background: transparent url(nb.png)  center left no-repeat;    
+    background: transparent url(icons/nb.png)  center left no-repeat;    
     background-size: 30px;
 }
 .major a[href$='.nb'] {    
     padding-left:55px;
-    background: transparent url(nb.png)  center left no-repeat;    
+    background: transparent url(icons/nb.png)  center left no-repeat;    
 }
 .major a[href$='.psd'] {    
     padding-left:55px;
-    background: transparent url(psd.png)  center left no-repeat;    
+    background: transparent url(icons/psd.png)  center left no-repeat;    
 }
 .major a[href$='.ai'] {    
     padding-left:55px;
-    background: transparent url(aid.png)  center left no-repeat;    
+    background: transparent url(icons/aid.png)  center left no-repeat;    
 }
 
 
