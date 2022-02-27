@@ -1,0 +1,65 @@
+a[href$='.nb'] {    
+    display:inline-block;    
+    line-height:40px;
+    padding-left:40px;
+    background: transparent url(nb.png)  center left no-repeat;    
+    background-size: 30px;
+}
+.major {
+    color: slategray;
+ /*   text-align: center; */
+    font-size: 35px;
+}
+.major a {    
+    display:inline-block;    
+/*    padding-top:10px;*/
+    line-height:60px;
+    color: slategray;
+}
+.major a[href$='.nb'] {    
+    padding-left:55px;
+    background: transparent url(nb.png)  center left no-repeat;    
+}
+.major a[href$='.psd'] {    
+    padding-left:55px;
+    background: transparent url(psd.png)  center left no-repeat;    
+}
+.major a[href$='.ai'] {    
+    padding-left:55px;
+    background: transparent url(aid.png)  center left no-repeat;    
+}
+.block {
+        padding-top: 25px;
+        padding-bottom: 80px;
+      }
+tr {
+    border-top: 1px solid silver;
+/*    border-bottom: 1px solid gray; */
+    border-collapse: collapse;
+    padding: 180px;
+}
+
+.pagehead {
+    padding: 40px;
+}
+.gtitle {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.group {
+    padding-bottom: 30px;
+}
+.tool {
+position: relative; 
+bottom: -8px; 
+margin: 0px; 
+padding: 0px;
+}
+td{
+position: relative;
+}
+.bottomrow{
+position: absolute;
+bottom: 5px;
+}
