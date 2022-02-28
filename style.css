@@ -49,6 +49,10 @@ section.paralaximage img
     padding-left:55px;
     background: transparent url(icons/aid.png)  center left no-repeat;    
 }
+.major a.dwld[href$='.pdf'] {    
+    padding-left:55px;
+    background: transparent url(icons/pdf.png)  center left no-repeat;    
+}
 a.mdwld[href$='.nb'] {    
     display:inline-block;    
     line-height:40px;
