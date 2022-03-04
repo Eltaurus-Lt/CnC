@@ -1,9 +1,9 @@
-/*css link test*/
+/*--css link check--*/
 div.csstest{
  background: purple;
 }
 
-/*gallery*/
+	/*--GALLERY--*/
 section.paralaximage
 {
  position: relative;
@@ -24,7 +24,7 @@ section.paralaximage img
 }
 
 
-/* main content */
+	/*-- MAIN CONTENT --*/
 .major {
     color: slategray;
     font-size: 35px;
@@ -36,7 +36,7 @@ section.paralaximage img
 }
 
 
-/*soft icons*/
+	/*--SOFT ICONS--*/
 .major a.dwld[href$='.nb'] {    
     padding-left:55px;
     background: transparent url(icons/nb.png)  center left no-repeat;    
@@ -82,7 +82,10 @@ a.mdwld[href$='.ai'] {
         padding-top: 25px;
         padding-bottom: 80px;
       }
-tr {
+
+
+	/*--TABLES--*/
+.sectiontable tr {
     border-top: 1px solid silver;
     border-collapse: collapse;
     padding: 180px;
