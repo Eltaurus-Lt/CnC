@@ -59,13 +59,25 @@ a.mdwld {
     padding-left: 40px;
     background-size: 30px;
 }
-a.mdwld[href$='.nb'] {    
+a.mdwld[href$='.nb'] {
+    display:inline-block;    
+    line-height: 40px;
+    padding-left: 40px;
+    background-size: 30px;    
     background: transparent url(icons/nb.png)  center left no-repeat;    
 }
-a.mdwld[href$='.pdf'] {    
+a.mdwld[href$='.pdf'] {
+    display:inline-block;    
+    line-height: 40px;
+    padding-left: 40px;
+    background-size: 30px;    
     background: transparent url(icons/pdf.png)  center left no-repeat;    
 }
-a.mdwld[href$='.ai'] {    
+a.mdwld[href$='.ai'] {
+    display:inline-block;    
+    line-height: 40px;
+    padding-left: 40px;
+    background-size: 30px;    
     background: transparent url(icons/aid.png)  center left no-repeat;    
 }
 
