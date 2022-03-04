@@ -58,14 +58,21 @@ a.mdwld[href$='.nb'] {
     line-height:40px;
     padding-left:40px;
     background: transparent url(icons/nb.png)  center left no-repeat;    
-    background-size: 30px;
+    background-size: 24px;
 }
 a.mdwld[href$='.pdf'] {    
     display:inline-block;    
     line-height:40px;
     padding-left:40px;
     background: transparent url(icons/pdf.png)  center left no-repeat;    
-    background-size: 30px;
+    background-size: 24px;
+}
+a.mdwld[href$='.ai'] {    
+    display:inline-block;    
+    line-height:40px;
+    padding-left:40px;
+    background: transparent url(icons/aid.png)  center left no-repeat;    
+    background-size: 24px;
 }
 
 
