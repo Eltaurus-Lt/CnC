@@ -74,6 +74,13 @@ a.mdwld[href$='.ai'] {
     background: transparent url(icons/aid.png)  center left no-repeat;    
     background-size: 30px;    
 }
+a.mdwld[href$='.psd'] {
+    display:inline-block;    
+    line-height: 40px;
+    padding-left: 40px;
+    background: transparent url(icons/psd.png)  center left no-repeat;    
+    background-size: 30px;    
+}
 
 
 
