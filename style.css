@@ -81,6 +81,11 @@ a.mdwld[href$='.psd'] {
     background: transparent url(icons/psd.png)  center left no-repeat;    
     background-size: 30px;    
 }
+.notexticon{
+font-size: 0px; 
+margin-right: -5px;
+padding-top: 10px; 
+}
 
 
 
@@ -118,8 +123,10 @@ padding: 0px;
 td{
 position: relative;
 }
+
 .bottomrow{
 position: absolute;
 bottom: 5px;
-rigth: 5px;
+right: 5px;
 }
+
