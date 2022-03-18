@@ -130,3 +130,11 @@ bottom: 5px;
 right: 5px;
 }
 
+.sourcecode {
+background: #e3e6e8;
+color: #232629;
+border-radius: 2px;
+padding: 1px 4px;
+margin: 0;
+display: inline;
+}
