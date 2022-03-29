@@ -116,6 +116,14 @@ width: 100%;
     width: 100%;
 }
 
+.sectionhead tr{
+border-top: none
+}
+.sectionhead {
+    padding: 40px;
+    padding-top: 0px;
+}
+
 .pagehead {
     padding: 40px;
 }
