@@ -105,6 +105,10 @@ padding-top: 10px;
 
 
 	/*--TABLES--*/
+.sectiontable {
+width: 100%;
+}
+
 .sectiontable tr {
     border-top: 1px solid silver;
     border-collapse: collapse;
