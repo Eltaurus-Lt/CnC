@@ -53,6 +53,10 @@ section.paralaximage img
     padding-left:55px;
     background: transparent url(icons/pdf.png)  center left no-repeat;    
 }
+.major a.dwld[href$='.aep'] {    
+    padding-left:55px;
+    background: transparent url(icons/aep.png)  center left no-repeat;    
+}
 .major a.aerar[href$='.rar'] {    
     padding-left:55px;
     background: transparent url(icons/aerar.png)  center left no-repeat;    
