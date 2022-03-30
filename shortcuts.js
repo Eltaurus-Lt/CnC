@@ -1,0 +1,8 @@
+//jmainblock.innerHTML = mainblock.innerHTML.replace(/Shift/g, "<img src=\"tutscr/Shift.png\" style=\"bottom: 0px; margin: 0px; padding: 0px\">"); 
+mainblock.innerHTML = mainblock.innerHTML.replace(/\u2190\u002f\u2191\u002f\u2192\u002f\u2193/g, "<img src=\"tutscr/arrows.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/Left\sclick/g, "<img src=\"tutscr/lmb.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/Right\sclick/g, "<img src=\"tutscr/rmb.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/Click\sdrag/g, "<img src=\"tutscr/mouse-move.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/Click\sselect/g, "<img src=\"tutscr/mouse-drag.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/\[мышь\sвправо\]/g, "<img src=\"tutscr/mouse-right.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
+mainblock.innerHTML = mainblock.innerHTML.replace(/\[мышь\sвлево\]/g, "<img src=\"tutscr/mouse-left.png\" style=\"position: relative; bottom: -2px; margin: 0px; padding: 0px\">");
