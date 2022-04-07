@@ -69,7 +69,7 @@ a[href$='.ipynb'] {
     padding-left:55px;
     background: transparent url(icons/jpt.png)  center left no-repeat;    
 }
-a[href$='.rar'] {    
+a[href$='.aep.rar'] {    
     padding-left:55px;
     background: transparent url(icons/aerar.png)  center left no-repeat;    
 }
