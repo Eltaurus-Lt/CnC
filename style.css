@@ -105,6 +105,13 @@ a.mdwld[href$='.psd'] {
     background: transparent url(icons/psd.png)  center left no-repeat;    
     background-size: 30px;    
 }
+a.mdwld[href$='.atn'] {
+    display:inline-block;    
+    line-height: 40px;
+    padding-left: 40px;
+    background: transparent url(icons/action.png)  center left no-repeat;    
+    background-size: 30px;    
+}
 .notexticon{
 font-size: 0px; 
 margin-right: -5px;
