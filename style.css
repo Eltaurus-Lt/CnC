@@ -65,6 +65,10 @@ a[href$='.jsx'] {
     padding-left:55px;
     background: transparent url(icons/jsx.png)  center left no-repeat;    
 }
+a[href$='.atn'] {    
+    padding-left:55px;
+    background: transparent url(icons/action.png)  center left no-repeat;    
+}
 a[href$='.ipynb'] {    
     padding-left:55px;
     background: transparent url(icons/jpt.png)  center left no-repeat;    
