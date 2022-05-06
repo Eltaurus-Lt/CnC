@@ -148,6 +148,9 @@ border-top: none
     padding-left: 0px;
     padding-right: 0px;
 }
+.sectionhead table{
+    width: 100%;
+}
 
 .pagehead {
     padding: 40px;
