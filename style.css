@@ -28,6 +28,7 @@ section.paralaximage img
 .major {
     color: slategray;
     font-size: 35px;
+    margin: 0 auto;
 }
 .major a {    
     display:inline-block;    
@@ -144,7 +145,8 @@ border-top: none
 }
 .sectionhead {
     padding: 40px;
-    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .pagehead {
