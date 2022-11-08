@@ -1,6 +1,9 @@
 hr.newsection {
 }
 
+.padded {
+  padding: 1em;
+}
 
 .spoilerstate {
   display: none;
