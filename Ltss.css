@@ -10,6 +10,15 @@ hr.newsection {
   padding-bottom: 2em;
 }
 
+.gridgallery {
+  display: grid;
+  column-gap: .3em;
+}
+.gridgallery img{
+  width: 100%;
+}
+
+
 .spoilerstate {
   display: none;
 }
