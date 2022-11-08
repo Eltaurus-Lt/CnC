@@ -28,14 +28,12 @@ hr.newsection {
   box-shadow: #0002 0 0 2em;
   z-index: -1;
   margin: auto;
-  max-height: 0;
   overflow: hidden;
   transition: max-height .5s;
 }
 
-.spoilerstate:checked + * + .spoiler{
-  max-height: 100vh;
-//  overflow-y: auto;
+.spoilerstate:not(:checked) + * + .spoiler{
+  max-height: 0 !important;
 }
 
 .spoilerheader {
