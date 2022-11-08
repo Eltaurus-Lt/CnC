@@ -26,15 +26,16 @@ hr.newsection {
   background: lightgray;
   width: 100%;
   padding: .5em 0 .5em 1em;
+  border-bottom: solid 1px #0002;
 }
 
 .spoilerheader::before {
   content: '▲';
   display: inline-block;
-  transform: rotate(90deg);
+  transform: translate(-.42em,-.1em) rotate(90deg);
   transition: transform .5s;
 }
 
 .spoilerstate:checked + * > .spoilerheader::before {
-  transform: rotate(180deg);
+  transform: translate(-.42em,-.1em) rotate(180deg);
 }
