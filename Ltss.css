@@ -1,1 +1,40 @@
-<hr class="newsection">
+hr.newsection {
+}
+
+
+.spoilerstate {
+  display: none;
+}
+.spoiler {
+  max-width: 90%;
+  text-align: justify;
+  box-shadow: #0002 0 0 2em;
+  z-index: -1;
+  margin: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s;
+}
+
+.spoilerstate:checked + * + .spoiler{
+  max-height: 100vh;
+//  overflow-y: auto;
+}
+
+.spoilerheader {
+  font-weight: bold;
+  background: lightgray;
+  width: 100%;
+  padding: .5em 0 .5em 1em;
+}
+
+.spoilerheader::before {
+  content: '▲';
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: transform .5s;
+}
+
+.spoilerstate:checked + * > .spoilerheader::before {
+  transform: rotate(180deg);
+}
