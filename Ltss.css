@@ -1,3 +1,7 @@
+:root {
+	--lighter-gray: #f4f4f4;
+}
+
 hr.newsection {
 }
 
@@ -9,7 +13,7 @@ hr.newsection {
   display: none;
 }
 .spoiler {
-  max-width: 90%;
+  max-width: 95%;
   text-align: justify;
   box-shadow: #0002 0 0 2em;
   z-index: -1;
@@ -26,7 +30,7 @@ hr.newsection {
 
 .spoilerheader {
   font-weight: bold;
-  background: lightgray;
+  background: var(--lighter-gray);
   width: 100%;
   padding: .5em 0 .5em 1em;
   border-bottom: solid 1px #0002;
@@ -35,10 +39,10 @@ hr.newsection {
 .spoilerheader::before {
   content: '▲';
   display: inline-block;
-  transform: translate(-.42em,-.1em) rotate(90deg);
+  transform: translate(-.35em,-.05em) rotate(90deg);
   transition: transform .5s;
 }
 
 .spoilerstate:checked + * > .spoilerheader::before {
-  transform: translate(-.42em,-.1em) rotate(180deg);
+  transform: translate(-.35em,-.05em) rotate(180deg);
 }
