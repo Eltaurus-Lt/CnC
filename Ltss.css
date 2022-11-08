@@ -6,7 +6,8 @@ hr.newsection {
 }
 
 .padded {
-  padding: 1em;
+  padding: 1.5em;
+  padding-bottom: 2em;
 }
 
 .spoilerstate {
