@@ -1,6 +1,9 @@
 :root {
 	--lighter-gray: #f4f4f4;
 }
+#mainblock img {
+  margin: 0 !important;
+}
 
 hr.newsection {
 }
