@@ -5,6 +5,10 @@
 hr.newsection {
 }
 
+.full-width {
+  width: 100%;
+}
+
 .padded {
   padding: 1.5em;
   padding-bottom: 2em;
